@@ -11,6 +11,8 @@ const useStyles = makeStyles(theme =>({
     }
 }))
 
+var ActivateAddEditEmployeeComponent = 'false';
+
 const Employee = props => {
     const classes = useStyles();
 

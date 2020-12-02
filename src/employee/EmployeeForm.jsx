@@ -32,7 +32,7 @@ export default function EmployeeForm() {
     <Form>
       <h6>Employee Form</h6>
       <Grid container>
-        <Grid item xs={6}>
+        <Grid item xs={9}>
           <TextFieldStandard
             label = 'Employee Name'
             name = 'employeeName'
@@ -53,7 +53,7 @@ export default function EmployeeForm() {
             onChange = {handleInputChange}
           />
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={3}>
         </Grid>
         <Grid container item xs={12} direction = 'row' justify = 'flex-end' alignItems = 'center'>
           <ButtonStandard
